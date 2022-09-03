@@ -4,6 +4,7 @@ import '../stylesheets/Question.css';
 class Question extends Component {
   constructor(props){
     super(props);
+    console.log(this.props);
     this.state = {
       visibleAnswer: false
     }
